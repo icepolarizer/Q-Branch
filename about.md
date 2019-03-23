@@ -4,5 +4,10 @@ title : About
 permalink: /about/
 ---
 
-## 이것은 임시대문입니다.
-### 제 전 블로그도 그랬고 전전 블로그도 그랬고 전전전 블로그도 그랬듯이 이것도 영영 갈지도 모르죠.
+## About us
+We are a team of two members. We are highly interested in Quantum Computing and many other crazy stuff.  
+
+## Profile  
+* Richard Kim: Timelord. Highly interested in theoretical physics. Loves crazy stuff.  Student of Green River Community colledge.
+* Samuel Choi: "If I don't have to do it, I won't. If I have to do it, I'll make it quick." - 
+Keeping this 'Energy Conservative' motto for about 3 years. Calling himself a student developer but nobody knows the truth. Currently in love with Linux-installed TARDIS.
