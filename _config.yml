@@ -8,7 +8,7 @@
 # Site settings
 title: Q Branch
 email: hyensoochoi@gmail.com
-description: Basic research is what I am doing when I don't know what I am doing.
+description: 情報科学に革命を。両者の物理に制裁を。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://qbranch.xyz" # the base hostname & protocol for your site
 twitter_username: null
