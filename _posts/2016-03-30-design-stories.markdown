@@ -54,9 +54,9 @@ You need some mathematical knowledge to understand this part. But, this part wil
 
 활용 가능성 이야기는 나중으로 미루고, 우선 큐비트가 어떻게 작동하는 것인지 설명해 보겠다.
 
-큐비트를 이해하려면 먼저 벡터에 관한 이해가 필요하다. 어렵게 생각할 것은 없다. 그저 수량을 가진 방향, 길이가 주어진 화살표라고만 생각하면 된다. 이는 서로 더하거나 뺄 수 있다. 그런데 이 벡터를 하나의 구면 안에서, 구의 중점에서 바깥 어느 지점으로 뻗은 벡터라고 생각해 보자. 이 벡터가 큐비트의 상태를 나타낸다. 이것이 수직으로 위로 뻗으면 0인 '상태', 즉 |0⟩ 이 된다(디랙 표기법, 혹은 브라-켓 표기법에 따른 것이다). 반대로 수직으로 아래로 뻗으면 |1⟩ 이 된다.
+큐비트를 이해하려면 먼저 벡터에 관한 이해가 필요하다. 어렵게 생각할 것은 없다. 그저 수량을 가진 방향, 길이가 주어진 화살표라고만 생각하면 된다. 이는 서로 더하거나 뺄 수 있다. 그런데 이 벡터를 하나의 구면 안에서, 구의 중점에서 바깥 어느 지점으로 뻗은 벡터라고 생각해 보자. 이 벡터가 큐비트의 상태를 나타낸다. 이것이 수직으로 위로 뻗으면 0인 '상태', 즉 \|0⟩ 이 된다(디랙 표기법, 혹은 브라-켓 표기법에 따른 것이다). 반대로 수직으로 아래로 뻗으면 \|1⟩ 이 된다.
 
-Let me explain how qubit works first. To understand qubit, you need to understand vector. Vector is not a very hard concept. Just think of it as an arrow with a direction and length. This can be added or subtracted from each other (It can also be multiplied in a different way than usual, too). Let us consider a vector starting from a center of a sphere reaching toward a surface of the sphere. This vector indicates the state of the qubit. If it extends vertically upwards, it becomes a 'state' of 0, that is, |0⟩according to Dirac notation, or bracket notation). Conversely, if you extend vertically downward, it becomes l1⟩.
+Let me explain how qubit works first. To understand qubit, you need to understand vector. Vector is not a very hard concept. Just think of it as an arrow with a direction and length. This can be added or subtracted from each other (It can also be multiplied in a different way than usual, too). Let us consider a vector starting from a center of a sphere reaching toward a surface of the sphere. This vector indicates the state of the qubit. If it extends vertically upwards, it becomes a 'state' of 0, that is, \|0⟩according to Dirac notation, or bracket notation). Conversely, if you extend vertically downward, it becomes l1⟩.
 
 그런데, 이 벡터가 수직이 아닌 상태로 다른 어딘가를 향하면 이것이 바로 Superpsition, 즉 중첩 상태가 된다. 엄밀히 말하면 정해진 위치가 있지만, 일단은 그렇게 생각하자. 이 순간, 양자의 행방은~~진실은 저 너머에~~ 알 길이 없게 된다. 정말 모른다. 애초에 결정되기 전까지는 어느 값도 아니고, 어느 값도 아니기에 그 확률을 특정 방향으로 조정하는 것도 무리다.
 
@@ -84,15 +84,15 @@ And of course, you need a tool to handle a qubit. There is a gate and an anuling
 
 As you may have guessed from the explanation above, the gate method literally passes the qbit through the gate, so that when the gates are arranged in order and the qubit passes through, the state of the qubit changes according to the order of arrangement. You can use this to create routines. There are various gates, such as an X gate, which reverses the axis, and there exists a gate that makes both of them superposition, like a H gate (Hadamard Gate). "Quantum entanglement" is also implemented as a gate. Quantum entanglement is the theory that both quantums are present in one physical system, strictly in the Hamiltonian system, despite the different locations, the total energy in the system is always the same. This allows the two entities to interact with one another. The Entanglement Gate consists two nodes, each of which is placed in front of the qubit.
 
-이렇게 하면, 한 큐비트가 |1⟩ 인지 여부에 따라 다른 노드의 큐비트가 반전된다.
+이렇게 하면, 한 큐비트가 \|1⟩ 인지 여부에 따라 다른 노드의 큐비트가 반전된다.
 
 
 
-> 예를 들어, 큐비트 A, B가 서로 얽혀 있을 때, 큐비트 A가 |0⟩ 이고 B가 |0⟩ 이다. 그런데 A가 X게이트(NOT게이트)를 통과해서 |1⟩ 이 되었다. 이후 이 두 큐비트가 Entanglement 게이트를 통과하면, B도 |1⟩ 가 된다. 반면 이 회로에서 X게이트를 제거하면 B의 상태는 |0⟩ 그대로다.
+> 예를 들어, 큐비트 A, B가 서로 얽혀 있을 때, 큐비트 A가 \|0⟩ 이고 B가 \|0⟩ 이다. 그런데 A가 X게이트(NOT게이트)를 통과해서 \|1⟩ 이 되었다. 이후 이 두 큐비트가 Entanglement 게이트를 통과하면, B도 \|1⟩ 가 된다. 반면 이 회로에서 X게이트를 제거하면 B의 상태는 \|0⟩ 그대로다.
 
 그리고, 이런 회로를 모두 통과한 후에는 결국 관측이 필요하다. 관측 없이는 결과가 있을 리 만무하다. 하지만 회로 설계시 관측 순간은 신중하게 생각해야 한다. 관측 후에는 양자의 특성을 사용할 수 없다. 관측자에 의해 관측되는 순간 양자의 상태는 완전히 하나로 수렴하며, 이렇게 되면 끝이다. 더 이상 바뀌지 않는다. 그러므로 관측은 모든 연산이 끝나고 최종적으로 해야 한다. 이 비트를 변수로 친다면, 디버거처럼 실행 중에 변수를 추적하는 것은 불가능한 셈이다.
 
-In this way, the qubits of other nodes are inverted depending on whether one qubit is |1 ⟩. For example, when the entangled qubits A and B are both in |0⟩. As A passes through the X gate (NOT gate) and becomes |1⟩, then if these two qubits pass through the Entanglement gate, then B also becomes |1⟩. On the other hand, when the X gate is removed from this circuit, the state of B is |0⟩. And after all these circuits have passed, observations are needed. Without observations, there is no result. However, the moment of observation should be thought carefully when designing the circuit. The state of a qubit cannot be changed after observation. The state of the moment when observed by the observer converges completely into one, and that is the end. It does not change anymore. Therefore, observations should be done at the end of every computation. If you use this bit as a variable, it is impossible to trace the variable during execution like a debugger.
+In this way, the qubits of other nodes are inverted depending on whether one qubit is \|1 ⟩. For example, when the entangled qubits A and B are both in \|0⟩. As A passes through the X gate (NOT gate) and becomes \|1⟩, then if these two qubits pass through the Entanglement gate, then B also becomes \|1⟩. On the other hand, when the X gate is removed from this circuit, the state of B is \|0⟩. And after all these circuits have passed, observations are needed. Without observations, there is no result. However, the moment of observation should be thought carefully when designing the circuit. The state of a qubit cannot be changed after observation. The state of the moment when observed by the observer converges completely into one, and that is the end. It does not change anymore. Therefore, observations should be done at the end of every computation. If you use this bit as a variable, it is impossible to trace the variable during execution like a debugger.
 
 
 
