@@ -6,15 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Gravity
-email: hemangsk@gmail.com
-description: The Liberal Jekyll Theme
+title: Q Branch
+email: hyensoochoi@gmail.com
+description: Basic research is what I am doing when I don't know what I am doing.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: hemang_kumar
-github_username:  hemangsk
+url: "http://qbranch.xyz" # the base hostname & protocol for your site
+twitter_username: null
+github_username:  kenixer
 paginate: 5
-theme-dark: false #Set to true to change to dark website theme
+theme-dark: true #Set to true to change to dark website theme
 
 plugins: [jekyll-paginate, kramdown]
 # Build settings
