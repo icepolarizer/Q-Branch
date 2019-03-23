@@ -4,13 +4,10 @@ title : About
 permalink: /about/
 ---
 
-## About us  
----
+## About us
 We are a team of two members. We are highly interested in Quantum Computing and many other crazy stuffs.  
 
 ## Profile  
----
-First Header | Second Header
------------- | -------------
-Richard Kim | Timelord. Highly interested in theoretical physics. Loves crazy stuffs.  Student of Green River Community colledge.
-Samuel Choi | "If I don't have to do it, I won't. If I have to do it, I'll make it quick." Keeping this 'Energy Conservative' motto for about 3 years. Calling himself a student developer but nobody knows the truth. Currently in love with Linux-installed TARDIS.
+* Richard Kim: Timelord. Highly interested in theoretical physics. Loves crazy stuffs.  Student of Green River Community colledge.
+* Samuel Choi: "If I don't have to do it, I won't. If I have to do it, I'll make it quick." - 
+Keeping this 'Energy Conservative' motto for about 3 years. Calling himself a student developer but nobody knows the truth. Currently in love with Linux-installed TARDIS.
