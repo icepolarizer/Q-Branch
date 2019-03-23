@@ -1,28 +1,21 @@
-# Site specific settings
-title: "Title to this website"
-name: "Website name"
-keywords: "Key, words, about, this, website"
-baseurl: "/darcli"
-url: "http://website.com"
-description: "Website description"
-cover: "/assets/img/cover.svg"
-fanpage_id: ""
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site general settings
-lang: "en"
-lang_alternate: "pt_BR"
-ssl: false # It will redirect to https
+# Site settings
+title: Gravity
+email: hemangsk@gmail.com
+description: The Liberal Jekyll Theme
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: hemang_kumar
+github_username:  hemangsk
+paginate: 5
+theme-dark: false #Set to true to change to dark website theme
 
-# Media
-# Just the shortname:
-# facebook: lampiaosec # Rigth
-# facebook: facebook.com/lampiaosec # Wrong
-disqus: test
-twitter: 
-facebook: 
-github: 
-google:
-
+plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
-permalink: /:categories/:title/
