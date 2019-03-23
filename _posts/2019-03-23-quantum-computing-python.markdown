@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Should we add Quantum Computing to Python"
-
 date:   2019-03-23
 categories: ["quantum", "science", "physics"]
 author: "Hyensoo Choi, Hyunsung Kim"
