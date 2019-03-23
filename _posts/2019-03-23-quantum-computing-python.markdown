@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Should we add Quantum Computing to Python: 파이썬에 양자컴퓨팅 같은 걸 끼얹나"
+title:  "Should we add Quantum Computing to Python"
 
 date:   2019-03-23
 categories: ["quantum", "science", "physics"]
