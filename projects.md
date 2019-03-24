@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: page
 title: Projects
 permalink: /projects/
-category: "projects"
 ---
 
 ## [Project Ganymede](http://project-ganymede.com/)
