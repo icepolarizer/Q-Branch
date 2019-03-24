@@ -8,7 +8,7 @@
 # Site settings
 title: Q Branch
 email: hyensoochoi@gmail.com
-description: 情報科学の変革を、両者の物理に制裁を。<br>Transformation of information science, control of quantum physics.
+description: 情報科学の変革を、両者の物理に制裁を。<br>Transformation of computer science, control of quantum physics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://qbranch.xyz" # the base hostname & protocol for your site
 twitter_username: null
