@@ -1,5 +1,5 @@
 ---
 layout: link
 title : Wiki
-permalink: ../wiki.qbranch.xyz
+link: wiki.qbranch.xyz
 ---
